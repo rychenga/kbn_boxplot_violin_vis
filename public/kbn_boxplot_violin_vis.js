@@ -21,7 +21,9 @@ define(function (require) {
         defaults: {
           showText: true,
           showValues: true,
-          showMetricsAtAllLevels: false
+          showMetricsAtAllLevels: false,
+          showBoxPlot: true,
+          showViolin: true
         },
         editor: require('plugins/kbn_boxplot_violin_vis/kbn_boxplot_violin_vis_params.html')
       },
