@@ -44,7 +44,7 @@ define(function (require) {
         {
           group: 'buckets',
           name: 'segment',
-          title: 'Boxplot Gropuing',
+          title: 'Boxplot Groupuing',
           aggFilter: '!geohash_grid',
           min: 0,
           max: 2
